@@ -1,19 +1,28 @@
+
+body{font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
+}
 .container {
   display: flex ;
-margin-left: 25%;
-    margin-top: 10rem;
+ margin-top: 10rem;
   text-align: center;
   height: 800px;
   width: 2800px;
+  margin-left: 28rem;
 }
+#main_heading
+{
+  color:navy ;
+  font-weight: bold;
+  font-size: 3rem;
 
+}
 /*card 1 and card 3*/
 .card {
   width: 300px;
   height: 400px;
   border: 1px solid #ccc;
   border-radius: 5px;
-
   margin: 10px;
   
 }
@@ -29,7 +38,6 @@ margin-left: 25%;
   transition: 0.6s;
 }
 
-
 .btn2
 {
   border-radius: 35px;
@@ -38,7 +46,6 @@ margin-left: 25%;
   text-align: center;
   background-color: white;
   color: #4CAF50;
- 
   border:2px solid;
   border-color: gray;
 }
@@ -122,8 +129,6 @@ margin-left: 25%;
 .card2:hover::after {
 
   font-size: 48px;
-
-
   transform: translateY(-60px);
   transition: 0.6s;
 }
@@ -143,8 +148,6 @@ margin-left: 25%;
 .arrow-list li:before {
   content: ">";
 
-
- 
 font-weight: bold;
   color: 	#32cd32;
 }
@@ -173,26 +176,23 @@ li{
   
 }
 .custom-list {
-  list-style-type: none; /* Remove default bullet points */
-  padding-left: 0; /* Remove default padding */
+  list-style-type: none; 
+  padding-left: 0; 
 }
 
 .custom-list li {
-  position: relative; /* Set list items as relative */
+  position: relative; 
 }
 
 .custom-list li::before {
   content: ">";
-  position: absolute; /* Set ">" symbol as absolute */
+  position: absolute; 
   left: 15%; 
-  top: 50%; /* Center vertically */
-  transform: translateY(-50%); /* Adjust vertical positioning */
+  top: 50%; 
+  transform: translateY(-50%); 
 font-weight: bold;
   color: 	#32cd32;
 }
-
-
-
 
 
     .button-container {
