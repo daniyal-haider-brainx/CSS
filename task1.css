@@ -14,15 +14,18 @@ body{
   column-gap: 1rem;
   row-gap: 1.5rem;
 }
-#main_heading
+h1
 {
   color:#3b3663;
   font-weight: bold;
   margin: auto;
  font-size: 2.5rem;
 
+ margin-top: 5rem;
+ margin-bottom: 4rem;
 
 }
+
 /*card 1 and card 3*/
 .card {
   width: 18.75rem;
@@ -60,8 +63,9 @@ body{
   border-color: gray;
 }
 
-#h1
+h2
 {
+  margin-top: 3rem;
     text-align: center;
      color:#3b3663;
     font-weight: bold;
@@ -138,12 +142,12 @@ font-weight: bold;
   
 }
 /*Button*/
-.btn1:hover
+.button_getstarted:hover
 {
   background-color:  #0abf53;
   color: white;
 }
-.btn1
+.button_getstarted
 {
     background-color: whitesmoke;
     display: inline-block;
@@ -172,11 +176,8 @@ font-weight: bold;
     font-size: 1rem; 
 
 }
-.p1
-{
-  color: #161c2d;
-}
-.btn{
+
+.button_card2{
     color:white;
     background-color:  #0abf53;
   
@@ -273,8 +274,6 @@ link:hover{
    left: 50%;
    transform: translateX(-50%);
    bottom: 1rem;
-   width: 90%;
-   border: none;
    border-top: 0.125rem solid lightgrey;
     }
 
@@ -294,10 +293,7 @@ body,html
     font-family: 'Kumbh Sans', sans-serif;
 }
 
-.p
-{
-  text-decoration: none;
-}
+
 
 .custom-list li{
   color:#585858;
@@ -348,8 +344,8 @@ p a:hover{
 .card2 
 {
   width: 100%;
-  margin-top: 2rem;
- margin:auto;
+  margin-top: 4rem;
+
 
   }
 .card
@@ -366,12 +362,12 @@ p a:hover{
 }
 
   
-.btn 
+.button_card2 
   {
     width: 40%;
   }
 
-.btn1 
+.button_getstarted 
   {
     width: 40%;
   }
@@ -385,30 +381,33 @@ p a:hover{
     margin:auto;
   }
 
-
-.custom-button,.line 
+  .line 
+  {
+    width: 120%;
+  }
+.custom-button
   {
     width: 100%;
   }
 }
 
 @media only screen and (min-width: 820px) and (max-width: 1180px) {
-  .btn {
+  .button_card2 {
     width: 80%;
   }
 
-  .btn1 {
+  .button_getstarted {
     width: 80%;
   }
 
 }
 @media only screen and (min-width: 936px) and (max-width: 897px) {
 
-  .btn {
+  .button_card2 {
     width: 50%;
   }
 
-  .btn1 {
+  .button_getstarted {
     width: 50%;
   }
 }
@@ -436,12 +435,12 @@ p a:hover{
   {
     height: 28rem;
   }
-  .btn {
+  .button_card2 {
 
     width: 55%;
   }
 
-  .btn1 {
+  .button_getstarted {
     width
     : 25%;
   }
@@ -455,8 +454,11 @@ p a:hover{
 }
 
 
-  .custom-button,
-  .line 
+.line 
+{
+  width: 110%;
+}
+.custom-button
   {
     width: 80%;
   }
@@ -482,7 +484,7 @@ p a:hover{
 
     height: 28rem;
   }
-  .btn1 
+  .button_getstarted 
   {
     width: 45%;
   }
@@ -495,9 +497,12 @@ p a:hover{
     margin: auto;
   }
   
-
-  .custom-button,
-  .line {
+  
+  .line 
+  {
+    width:110%
+  }
+  .custom-button{
     width: 80%;
   }
 }
@@ -520,21 +525,22 @@ p a:hover{
     height: 31.25rem;
   }
 
-  .btn {
+  .button_card2 {
     width: 55%;
   }
 
 
-  .btn1 {
+  .button_getstarted {
     width: 55%;
 
   }
-
-  .custom-button,
-  .line {
+.line{
+  width: 120%;
+}
+  .custom-button {
     width: 90%;
   }
-  .copy-right
+  .footer
   {
     margin-top: -15%;
 
@@ -560,10 +566,10 @@ p a:hover{
 
 
 @media only screen and (max-width: 600px) {
-  .btn1 {
+  .button_getstarted {
     width: 50%;
   }
-  .btn{
+  .button_card2{
     width: 50%;
   }
   .button-container1
@@ -581,7 +587,7 @@ p a:hover{
     h1 {
         font-size: 30px;
     }
-    .copy-right p {
+    .footer p {
         font-size: 17px;
     }
 }
